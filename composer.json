@@ -1,5 +1,5 @@
 {
-    "name": "johanospina/decomments",
+    "name": "johanospina/decomments_b",
     "type": "wordpress-plugin",
     "require": {"composer/installers":"v1.0.25"}
   
