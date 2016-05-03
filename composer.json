@@ -2,8 +2,7 @@
     "name": "johanospina/decomments",
     "type": "wordpress-plugin",
     "require": {
-    "composer/installers":"v1.0.25",
-    "monolog/monolog":"2.1.*"
+    "composer/installers":"v1.0.25",    
     }
   
 }
