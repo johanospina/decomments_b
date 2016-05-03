@@ -1,0 +1,776 @@
+@charset "UTF-8";
+/*
+	Default DeCommets Style
+*/
+@font-face {
+  font-family: 'fontello';
+  src: url("../font/fontello.eot?81254235");
+  src: url("../font/fontello.eot?81254235#iefix") format("embedded-opentype"), url("../font/fontello.woff?81254235") format("woff"), url("../font/fontello.ttf?81254235") format("truetype"), url("../font/fontello.svg?81254235#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?81254235#fontello') format('svg');
+  }
+}
+*/
+/* line 23, ../scss/_font.scss */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+/* line 54, ../scss/_font.scss */
+.icon-gplus:before {
+  content: '\e800'; }
+
+/* '' */
+/* line 59, ../scss/_font.scss */
+.icon-odnoklas:before {
+  content: '\e801'; }
+
+/* '' */
+/* line 64, ../scss/_font.scss */
+.icon-vk:before {
+  content: '\e802'; }
+
+/* '' */
+/* line 69, ../scss/_font.scss */
+.icon-twitter:before {
+  content: '\e803'; }
+
+/* '' */
+/* line 74, ../scss/_font.scss */
+.icon-facebook:before {
+  content: '\e804'; }
+
+/* '' */
+/* line 79, ../scss/_font.scss */
+.icon-export:before {
+  content: '\e805'; }
+
+/* '' */
+/* line 84, ../scss/_font.scss */
+.icon-linkedin:before {
+  content: '\e806'; }
+
+/* '' */
+/* line 89, ../scss/_font.scss */
+.icon-shuffle:before {
+  content: '\e807'; }
+
+/* '' */
+/* line 94, ../scss/_font.scss */
+.icon-clock:before {
+  content: '\e808'; }
+
+/* '' */
+/* line 99, ../scss/_font.scss */
+.icon-share:before {
+  content: '\e809'; }
+
+/* '' */
+/* line 104, ../scss/_font.scss */
+.icon-link-1:before {
+  content: '\e80a'; }
+
+/* '' */
+/* line 109, ../scss/_font.scss */
+.icon-link:before {
+  content: '\e80c'; }
+
+/* '' */
+/* line 7, ../scss/_var.scss */
+.decom-comment-section:after, .decom-comment-section .decom-add-comment:after, .decom-comment-section .decom-comment-list:after, .decom-comment-section .decom-comment-list .decom-add-comment .decom-add-holder:after,
+.decom-comment-section .decom-comment-list .decom-add-comment .decom-head-block:after, .decom-comment-section .decom-comment-list .decom-comment-block:after, .decom-comment-section .decom-comment-list .decom-comment-block .decom-comment-holder:after, .decom-comment-section .decom-comment-body:after, .decom-comment-section .decom-comment-reply:after {
+  clear: both;
+  display: table;
+  content: '.';
+  visibility: hidden;
+  height: 0; }
+
+/* line 16, ../scss/_var.scss */
+.decom-comment-section .decom-enter-form label, .decom-comment-section .decom-enter-form label em {
+  display: inline-block;
+  vertical-align: top; }
+
+/* line 2, ../scss/_decomments.scss */
+.decom-comment-section {
+  max-width: 100%;
+  padding: 30px 0 0 20px; }
+  /* line 7, ../scss/_decomments.scss */
+  .decom-comment-section .decom-comment-heading {
+    overflow: hidden;
+    padding: 15px 0 16px;
+    margin: 0 0 14px;
+    background: url(../images/bg-heading.gif) repeat-x 0 100%; }
+    /* line 13, ../scss/_decomments.scss */
+    .decom-comment-section .decom-comment-heading h2 {
+      color: #030303;
+      font: bold 18px/24px Arial, Helvetica, sans-serif;
+      margin: 0; }
+  /* line 20, ../scss/_decomments.scss */
+  .decom-comment-section .decom-enter-block {
+    overflow: hidden;
+    padding: 5px 0 10px;
+    background: #fff; }
+  /* line 28, ../scss/_decomments.scss */
+  .decom-comment-section .decom-enter-form .decom-col {
+    margin: 0 0 5px; }
+  /* line 32, ../scss/_decomments.scss */
+  .decom-comment-section .decom-enter-form label {
+    width: 65px; }
+    /* line 36, ../scss/_decomments.scss */
+    .decom-comment-section .decom-enter-form label em {
+      color: #ce6554; }
+  /* line 43, ../scss/_decomments.scss */
+  .decom-comment-section .decom-add-comment {
+    position: relative;
+    background: url(../images/bg-heading.gif) repeat-x;
+    padding: 13px 0 20px; }
+    /* line 49, ../scss/_decomments.scss */
+    .decom-comment-section .decom-add-comment .decom-head-block {
+      position: relative;
+      background: #dadada;
+      padding: 12px 17px 13px 14px; }
+      /* line 54, ../scss/_decomments.scss */
+      .decom-comment-section .decom-add-comment .decom-head-block .decom-decoration {
+        position: absolute;
+        right: 130px;
+        top: -10px;
+        background: url(../images/bg-decoration.png) no-repeat;
+        width: 20px;
+        height: 10px; }
+      /* line 63, ../scss/_decomments.scss */
+      .decom-comment-section .decom-add-comment .decom-head-block .decom-add-block {
+        float: right; }
+        /* line 66, ../scss/_decomments.scss */
+        .decom-comment-section .decom-add-comment .decom-head-block .decom-add-block ul {
+          margin: 0;
+          padding: 2px 0 0;
+          list-style: none;
+          float: left; }
+        /* line 73, ../scss/_decomments.scss */
+        .decom-comment-section .decom-add-comment .decom-head-block .decom-add-block li {
+          float: left;
+          margin: 0;
+          padding: 0 0 0 20px;
+          background: url(../images/sprite.png) no-repeat 10px -392px !important;
+          list-style: none; }
+          /* line 80, ../scss/_decomments.scss */
+          .decom-comment-section .decom-add-comment .decom-head-block .decom-add-block li:first-child {
+            padding: 0;
+            background: none !important; }
+          /* line 85, ../scss/_decomments.scss */
+          .decom-comment-section .decom-add-comment .decom-head-block .decom-add-block li a {
+            float: left;
+            text-indent: -9999px; }
+            /* line 89, ../scss/_decomments.scss */
+            .decom-comment-section .decom-add-comment .decom-head-block .decom-add-block li a.decom-add-blockquote {
+              background: url(../images/sprite.png) no-repeat 0 -63px;
+              width: 11px;
+              height: 9px;
+              padding: 3px 0 0; }
+            /* line 96, ../scss/_decomments.scss */
+            .decom-comment-section .decom-add-comment .decom-head-block .decom-add-block li a.decom-add-picture {
+              background: url(../images/sprite.png) no-repeat 0 -96px;
+              width: 17px;
+              height: 14px; }
+            /* line 102, ../scss/_decomments.scss */
+            .decom-comment-section .decom-add-comment .decom-head-block .decom-add-block li a.decom-file-uploaded {
+              background: url(../images/sprite.png) no-repeat 0 -110px; }
+  /* line 112, ../scss/_decomments.scss */
+  .decom-comment-section .decom-comment-list {
+    padding: 4px 0 20px;
+    background: url(../images/bg-heading.gif) repeat-x; }
+    /* line 117, ../scss/_decomments.scss */
+    .decom-comment-section .decom-comment-list .decom-add-comment {
+      padding: 13px 0 20px;
+      border: 1px solid #cecece;
+      background: url(../images/bg-heading.gif) repeat-x 0 100%; }
+      /* line 127, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-add-comment .decom-subscribe-block {
+        float: left; }
+        /* line 130, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-add-comment .decom-subscribe-block ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          float: left; }
+        /* line 137, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-add-comment .decom-subscribe-block li {
+          float: left;
+          margin: 0;
+          padding: 0 0 0 20px;
+          background: url(../images/sprite.png) no-repeat 10px -392px !important;
+          list-style: none; }
+          /* line 144, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-add-comment .decom-subscribe-block li:first-child {
+            padding: 0;
+            background: none; }
+          /* line 149, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-add-comment .decom-subscribe-block li a {
+            float: left;
+            background: url(../images/sprite.png) no-repeat;
+            padding: 0 0 0 26px;
+            color: #767676;
+            font: 11px/18px Arial, Helvetica, sans-serif; }
+            /* line 156, ../scss/_decomments.scss */
+            .decom-comment-section .decom-comment-list .decom-add-comment .decom-subscribe-block li a.decom-add-subscribe.active {
+              background-position: 0 -18px; }
+      /* line 163, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-add-comment .decom-add-box {
+        background: #fff;
+        overflow: hidden;
+        padding: 9px 14px 14px; }
+        /* line 168, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-add-comment .decom-add-box textarea {
+          margin: 0 0 8px;
+          resize: none;
+          overflow: auto;
+          padding: 0;
+          background: none;
+          border: none;
+          width: 100% !important;
+          height: 60px;
+          font: 13px/20px Arial, Helvetica, sans-serif;
+          overflow: auto;
+          outline: none; }
+        /* line 182, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-add-comment .decom-add-box .decom-btn {
+          background: #f9d200;
+          width: 86px;
+          height: 30px;
+          height: 16px;
+          padding: 7px 5px;
+          color: #030303 !important;
+          font: 13px/16px Arial, Helvetica, sans-serif;
+          text-align: center;
+          float: left;
+          margin: 0 6px 0 0; }
+          /* line 194, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-add-comment .decom-add-box .decom-btn:hover {
+            background: #fade47;
+            text-decoration: none; }
+        /* line 200, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-add-comment .decom-add-box .decom-cancel {
+          display: none; }
+      /* line 206, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-add-comment .decom-btn-holder {
+        overflow: hidden;
+        float: left; }
+    /* line 212, ../scss/_decomments.scss */
+    .decom-comment-section .decom-comment-list .decom-comment-block {
+      padding: 18px 0 10px; }
+      /* line 216, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-comment-holder {
+        position: relative;
+        padding: 5px 5px 16px 5px; }
+        /* line 221, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-comment-holder.decom-comment-dislike {
+          opacity: 0.4;
+          position: relative; }
+          /* line 225, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-comment-holder.decom-comment-dislike:hover {
+            opacity: 1; }
+        /* line 230, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-comment-holder.decom-top-rated {
+          box-shadow: 0 0 3px 0 #fade47; }
+      /* line 235, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-author-block {
+        float: left;
+        width: 50px;
+        margin: 0 19px 0 0;
+        position: relative; }
+        /* line 241, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-author-block .decom-author-img {
+          display: block;
+          margin: 0 0 3px; }
+          /* line 245, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-author-block .decom-author-img img {
+            display: block; }
+        /* line 250, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-author-block .decom-author {
+          display: none;
+          background: #f9d200;
+          color: #fff;
+          text-align: center;
+          padding: 3px 2px;
+          font: 10px/12px Tahoma, Verdana, Segoe, sans-serif;
+          text-transform: uppercase; }
+          /* line 259, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-author-block .decom-author.active {
+            display: block; }
+        /* line 264, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-author-block .decom-number {
+          z-index: 50;
+          background: url(../images/sprite.png) no-repeat 0 -336px;
+          width: 30px;
+          height: 12px;
+          color: #fff;
+          padding: 2px 3px 6px;
+          font: 10px/12px 'font', Arial, Helvetica, sans-serif; }
+      /* line 276, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-description-block {
+        overflow: hidden;
+        color: #222; }
+      /* line 281, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-title-block {
+        overflow: hidden;
+        padding: 0 0 7px; }
+      /* line 286, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-date {
+        float: right;
+        color: #767676;
+        padding: 0 2px 0 0;
+        font: 11px/13px Arial, Helvetica, sans-serif; }
+      /* line 293, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-autor-name {
+        float: left;
+        font: bold 13px/16px Arial, Helvetica, sans-serif;
+        color: #030303;
+        padding: 0 10px 4px 0; }
+      /* line 300, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-text-holder {
+        font: 13px/20px Arial, Helvetica, sans-serif;
+        overflow: hidden; }
+        /* line 304, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-text-holder p {
+          margin: 0 0 10px; }
+      /* line 309, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-item-block {
+        overflow: hidden; }
+      /* line 313, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-like-block {
+        float: left; }
+        /* line 316, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-like-block .decom-status {
+          color: #767676;
+          font: 11px/13px Arial, Helvetica, sans-serif;
+          padding: 0 11px 2px 0;
+          float: left; }
+          /* line 322, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-like-block .decom-status.decom-like {
+            color: #709e00; }
+          /* line 326, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-like-block .decom-status.decom-dislike {
+            color: #de1f1f; }
+      /* line 333, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-like-list {
+        margin: 0;
+        padding: 1px 0 0;
+        list-style: none;
+        float: left; }
+        /* line 339, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-like-list li {
+          float: left;
+          margin: 0;
+          padding: 0 0 0 8px;
+          background: url(../images/sprite.png) no-repeat 3px -392px;
+          list-style: none; }
+          /* line 346, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-like-list li:first-child {
+            padding: 0;
+            background: none; }
+        /* line 352, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-like-list a {
+          float: left;
+          background: url(../images/sprite.png) no-repeat 0 -276px;
+          width: 13px;
+          height: 13px;
+          text-decoration: none;
+          text-indent: -9999px; }
+          /* line 360, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-like-list a.decom-dislike {
+            background-position: -23px -276px; }
+          /* line 363, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-like-list a.decom-voted-like {
+            background-position: 0 -306px; }
+          /* line 366, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-like-list a.decom-voted-dislike {
+            background-position: -23px -306px; }
+      /* line 373, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-item-box {
+        float: right; }
+      /* line 377, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-item-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: right;
+        color: #767676;
+        font: 11px/13px Arial, Helvetica, sans-serif; }
+        /* line 385, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-item-list li {
+          float: left;
+          margin: 0;
+          padding: 0 0 0 9px;
+          background: url(../images/sprite.png) no-repeat 4px -392px !important;
+          list-style: none; }
+          /* line 392, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-item-list li:first-child {
+            padding: 0;
+            background: none !important; }
+        /* line 398, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-item-list a {
+          color: #767676;
+          float: left;
+          padding: 0 0 0 12px; }
+        /* line 404, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-item-list div {
+          color: #767676;
+          float: left;
+          cursor: pointer; }
+        /* line 410, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-item-list .decom-reply {
+          background: url(../images/sprite.png) no-repeat 0 -215px;
+          padding: 0 0 0 12px; }
+        /* line 415, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-item-list .decom-share {
+          display: block;
+          position: relative; }
+      /* line 422, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block .decom-change-list {
+        padding: 3px 0;
+        list-style: none;
+        float: right;
+        color: #767676;
+        font: 11px/13px Arial, Helvetica, sans-serif;
+        display: none; }
+        /* line 430, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-change-list.active {
+          display: block; }
+        /* line 434, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-change-list li {
+          float: left;
+          margin: 0;
+          padding: 0 0 0 9px;
+          background: url(../images/sprite.png) no-repeat 4px -392px !important;
+          list-style: none; }
+          /* line 441, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-change-list li:first-child {
+            padding: 0;
+            background: none !important; }
+        /* line 447, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-change-list a {
+          color: #767676;
+          float: left;
+          padding: 0 0 0 12px; }
+        /* line 453, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-change-list .decom-edit a {
+          background: url(../images/sprite.png) no-repeat 0 -153px; }
+        /* line 457, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-change-list .decom-delete {
+          background: url(../images/sprite.png) no-repeat 0 -183px;
+          padding: 0 0 0 12px; }
+        /* line 462, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block .decom-change-list span {
+          padding: 0 0 0 3px; }
+          /* line 465, ../scss/_decomments.scss */
+          .decom-comment-section .decom-comment-list .decom-comment-block .decom-change-list span em {
+            color: #da0000;
+            font-style: normal; }
+      /* line 473, ../scss/_decomments.scss */
+      .decom-comment-section .decom-comment-list .decom-comment-block blockquote {
+        margin: 0 0 10px;
+        background: url(../images/bg-blockquote.gif) repeat-y;
+        padding: 8px 5px 6px 25px;
+        overflow: hidden; }
+        /* line 479, ../scss/_decomments.scss */
+        .decom-comment-section .decom-comment-list .decom-comment-block blockquote cite {
+          display: block;
+          margin: 0;
+          font: italic 11px/18px Arial, Helvetica, sans-serif;
+          color: #484848; }
+    /* line 488, ../scss/_decomments.scss */
+    .decom-comment-section .decom-comment-list .decom-best-comments {
+      background: #00ee00 !important; }
+  /* line 497, ../scss/_decomments.scss */
+  .decom-comment-section .decom-comment-body .decom-comment-holder {
+    position: relative; }
+    /* line 500, ../scss/_decomments.scss */
+    .decom-comment-section .decom-comment-body .decom-comment-holder:before {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      background: url(../images/bg-heading.gif) repeat-x 0 100%;
+      height: 1px;
+      width: 100%;
+      z-index: 5; }
+  /* line 513, ../scss/_decomments.scss */
+  .decom-comment-section .decom-comment-reply {
+    padding-left: 23px; }
+    /* line 517, ../scss/_decomments.scss */
+    .decom-comment-section .decom-comment-reply .decom-comment-holder,
+    .decom-comment-section .decom-comment-reply .decom-comment-block {
+      padding: 0; }
+  /* line 523, ../scss/_decomments.scss */
+  .decom-comment-section .decom-loader-btn {
+    width: 96px;
+    float: none; }
+  /* line 528, ../scss/_decomments.scss */
+  .decom-comment-section .decom-trash-holder {
+    font: 13px/20px Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    margin: 0 0 25px;
+    color: #dd514c; }
+  /* line 536, ../scss/_decomments.scss */
+  .decom-comment-section .decom-item-box-left {
+    float: left;
+    margin-left: 10px; }
+    /* line 541, ../scss/_decomments.scss */
+    .decom-comment-section .decom-item-box-left div span {
+      display: block;
+      width: 0px;
+      height: 0;
+      overflow: hidden;
+      -moz-transition: 0.25s;
+      -o-transition: 0.25s;
+      -webkit-transition: 0.25s;
+      transition: 0.25s; }
+      /* line 548, ../scss/_decomments.scss */
+      .decom-comment-section .decom-item-box-left div span img {
+        margin-left: 5px;
+        cursor: pointer; }
+    /* line 555, ../scss/_decomments.scss */
+    .decom-comment-section .decom-item-box-left div:hover span {
+      width: 150px;
+      overflow: visible; }
+  /* line 563, ../scss/_decomments.scss */
+  .decom-comment-section .decom-message-error {
+    position: static;
+    margin-left: 50px;
+    margin-top: 9px;
+    color: #dd514c; }
+  /* line 570, ../scss/_decomments.scss */
+  .decom-comment-section .depth-disabled .decom-comment-reply {
+    padding-left: 0; }
+  /* line 574, ../scss/_decomments.scss */
+  .decom-comment-section .decom-addfile-box {
+    padding-bottom: 10px; }
+    /* line 577, ../scss/_decomments.scss */
+    .decom-comment-section .decom-addfile-box input[type="submit"] {
+      padding: 0; }
+  /* line 582, ../scss/_decomments.scss */
+  .decom-comment-section .decom-addfile-col {
+    width: 200px; }
+  /* line 586, ../scss/_decomments.scss */
+  .decom-comment-section .decom-pictures-holder {
+    margin: 10px 0; }
+  /* line 590, ../scss/_decomments.scss */
+  .decom-comment-section .decom-picture-full {
+    display: none;
+    overflow: hidden; }
+    /* line 594, ../scss/_decomments.scss */
+    .decom-comment-section .decom-picture-full img {
+      max-width: 100%; }
+  /* line 599, ../scss/_decomments.scss */
+  .decom-comment-section .decom-opacity {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.5; }
+  /* line 603, ../scss/_decomments.scss */
+  .decom-comment-section .decom-modified-date {
+    float: right;
+    color: #767676;
+    padding: 0 2px 0 0;
+    font: italic 11px/13px Arial, Helvetica, sans-serif;
+    margin-right: 10px; }
+  /* line 611, ../scss/_decomments.scss */
+  .decom-comment-section .decom_comments_sort {
+    margin-bottom: 10px; }
+  /* line 615, ../scss/_decomments.scss */
+  .decom-comment-section .datagrid-cell-check input[type="checkbox"],
+  .decom-comment-section .datagrid-header-check input[type="checkbox"] {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 3px 0 0 5px; }
+  /* line 623, ../scss/_decomments.scss */
+  .decom-comment-section .datagrid-row-over {
+    background: none !important;
+    color: #000 !important; }
+  /* line 628, ../scss/_decomments.scss */
+  .decom-comment-section.decom-avatar-right .decom-comment-block .decom-author-block {
+    float: right;
+    margin: 0 0 0 19px; }
+    /* line 632, ../scss/_decomments.scss */
+    .decom-comment-section.decom-avatar-right .decom-comment-block .decom-author-block .decom-number {
+      left: auto;
+      right: -38px;
+      background: url(../images/sprite.png) no-repeat 0 -366px; }
+
+/* line 2, ../scss/_badge.scss */
+#decom-badges-add-page .spinner,
+#decom-settings-page .spinner {
+  float: none; }
+
+/* line 7, ../scss/_badge.scss */
+.decom-picture {
+  cursor: zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in; }
+
+/* line 13, ../scss/_badge.scss */
+.decom-gif {
+  cursor: zoom-out;
+  cursor: -moz-zoom-out;
+  cursor: -webkit-zoom-out; }
+
+/* line 19, ../scss/_badge.scss */
+.decom-loader {
+  background: url(../images/ajax-loader.gif) no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  visibility: hidden; }
+
+/* line 30, ../scss/_badge.scss */
+.decom-ajax-paginate {
+  text-align: center; }
+
+/* line 34, ../scss/_badge.scss */
+.decom-paginate-loader {
+  display: none;
+  vertical-align: top; }
+  /* line 38, ../scss/_badge.scss */
+  .decom-paginate-loader img {
+    display: inline-block;
+    vertical-align: top; }
+  /* line 43, ../scss/_badge.scss */
+  .decom-paginate-loader span {
+    display: inline-block;
+    padding: 9px 0 0;
+    vertical-align: top; }
+
+/* line 50, ../scss/_badge.scss */
+.decom-title-block img {
+  display: inline-block; }
+
+/* line 54, ../scss/_badge.scss */
+.decom-item-moderator .moderate a {
+  font: 11px/13px Arial, Helvetica, sans-serif;
+  color: #767676;
+  float: right;
+  padding: 3px 0 0 10px; }
+
+/* line 61, ../scss/_badge.scss */
+.deco_social_icon {
+  position: absolute;
+  top: 35px;
+  left: 35px; }
+
+/* line 67, ../scss/_badge.scss */
+.ssss {
+  background: url(../images/sprite.png) no-repeat 0 -244px !important; }
+
+/* line 1, ../scss/_popup.scss */
+.decom-popup-holder {
+  border: 1px solid #cecece; }
+
+/* line 5, ../scss/_popup.scss */
+#TB_window .decom-popup-holder {
+  border: none; }
+
+/* line 9, ../scss/_popup.scss */
+.decom-popup-box {
+  overflow: hidden;
+  padding: 9px 14px 14px; }
+
+/* line 14, ../scss/_popup.scss */
+#TB_window .decom-popup-box {
+  overflow: hidden;
+  padding: 0; }
+
+/* line 19, ../scss/_popup.scss */
+.decom-popup-box textarea {
+  margin: 0 0 8px;
+  resize: none;
+  overflow: auto;
+  padding: 0;
+  background: none;
+  border: none;
+  width: 100% !important;
+  height: 60px;
+  font: 13px/20px Arial, Helvetica, sans-serif;
+  overflow: auto;
+  outline: none; }
+
+/* line 34, ../scss/_popup.scss */
+.decom-popup-btn,
+.decom-loader-btn {
+  background: #f9d200;
+  width: 86px;
+  height: 30px;
+  height: 16px;
+  padding: 7px 5px;
+  color: #030303 !important;
+  font: 13px/16px Arial, Helvetica, sans-serif;
+  text-align: center;
+  float: left;
+  margin: 0 6px 0 0; }
+  /* line 47, ../scss/_popup.scss */
+  .decom-popup-btn:hover,
+  .decom-loader-btn:hover {
+    background: #fade47;
+    text-decoration: none; }
+
+/* line 54, ../scss/_popup.scss */
+#TB_ajaxContent .decom-attachment-full {
+  max-width: 100%;
+  max-height: 100%; }
+
+/* line 59, ../scss/_popup.scss */
+#TB_window {
+  border-radius: 8px;
+  border: 3px solid #fff !important;
+  overflow: visible; }
+
+/* line 65, ../scss/_popup.scss */
+#TB_window #TB_title {
+  background: #dadada !important;
+  border-radius: 8px 8px 0 0; }
+
+/* line 70, ../scss/_popup.scss */
+#TB_ajaxWindowTitle {
+  font-size: 13px;
+  color: #767676 !important; }
+
+/* line 75, ../scss/_popup.scss */
+.TB_overlayBG {
+  background: #333 !important;
+  opacity: 0.6 !important; }
+
+/* line 80, ../scss/_popup.scss */
+#TB_ajaxContent {
+  background: #fff;
+  border-radius: 0 0 8px 8px;
+  padding: 20px 15px 15px 15px !important;
+  overflow: visible !important;
+  height: auto !important; }

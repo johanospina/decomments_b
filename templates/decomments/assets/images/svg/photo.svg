@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="24px" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>pict</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="com" sketch:type="MSArtboardGroup"  stroke="#979797">
+            <g id="pict" sketch:type="MSLayerGroup" >
+                <g id="Rectangle-24-+-Oval-3" stroke-width="3" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-24" x="3" y="3" rx="1" ry="1" width="24px" height="18px" style="stroke:#585858;stroke-width: 2px;fill:transparent;"></rect>
+                    <ellipse id="Oval-3" cx="15" cy="12" rx="5" ry="5" style="stroke:#585858;stroke-width: 2px;fill:transparent;"></ellipse>
+                </g>
+                <path d="M8.17712527,2 L12.1771253,2" id="Line" style="stroke:#585858;stroke-width: 2px;fill:transparent;" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

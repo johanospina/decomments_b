@@ -1,0 +1,1022 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: de:comments\n"
+"POT-Creation-Date: 2015-03-24 18:06+0200\n"
+"PO-Revision-Date: 2015-04-02 12:40+0200\n"
+"Last-Translator: Alexey <alexey@creative.kiev.ua>\n"
+"Language-Team: deco.agency <hello@deco.agency>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:11 components/settings/component-settings.php:19
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/modules/decom-updater/decom-updater.php:493
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"La clé de licence pour %s a expiré. Vous pouvez le réactiver ou <a href=\"%s"
+"\" target=\"_blank\">acheter le clé de licence</a>."
+
+#: admin/modules/decom-updater/decom-updater.php:510
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s est en attente. Vous pouvez réactiver l'abonnement de "
+"votre compte dans <a href=\"%s\" target=\"_blank\">le tableau de bord</a>."
+
+#: admin/modules/decom-updater/decom-updater.php:527
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"L'abonnement pour %s a été annulé. Vous pouvez renouveler l'abonnement au <a "
+"href=\"%s\" target=\"_blank\">tableau de bord</a> de votre compte. On vous "
+"envoyera la nouvelle clé de licence après traitement de votre commande."
+
+#: admin/modules/decom-updater/decom-updater.php:544
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s a expiré. Vous pouvez réactiver l'abonnement au<a href="
+"\"%s\" target=\"_blank\">tableau de bord</a> de votre compte."
+
+#: admin/modules/decom-updater/decom-updater.php:561
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"L'abonnement pour %s a été suspendu. Vous pouvez réactiver l'abonnement au "
+"<a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre compte."
+
+#: admin/modules/decom-updater/decom-updater.php:578
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"L'abonnement pour %s est toujours pendante. Vous pouvez vérifier l'état de "
+"la souscription au <a href=\"%s\" target=\"_blank\">tableau de bord</a> de "
+"votre compte."
+
+#: admin/modules/decom-updater/decom-updater.php:595
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s a été placé dans la poubelle et sera supprimé bientôt. "
+"Vous pouvez acheter un nouvel abonnement au <a href=\"%s\" target=\"_blank"
+"\">tableau de bord</a> de votre compte."
+
+#: admin/modules/decom-updater/decom-updater.php:612
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'abonnement pour %s n'a pas pu être trouvé. Vous pouvez acheter un "
+"abonnement au <a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre "
+"compte."
+
+#: admin/modules/decom-updater/decom-updater.php:629
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+"Une clé de licence pour %s n'a pas pu être trouvé. Peut-être vous avez "
+"oublié d'entrer la clé de licence lors de l'installation de %s, ou la clé a "
+"été deactivée sur votre compte.  Vous pouvez réactiver ou acheter la clé de "
+"licence au <a href=\"%s\" target=\"_blank\">tableau de bord</a> de votre "
+"compte."
+
+#: admin/modules/decom-updater/decom-updater.php:646
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"L'autorisation de téléchargement pour %s a été révoqué probablement due à "
+"une clé de licence ou de souscription expirant. Vous pouvez réactiver ou "
+"acheter une clé de licence au <a href=\"%s\" target=\"_blank\">tableau de "
+"bord</a> de votre compte."
+
+#: admin/modules/decom-updater/decom-updater.php:663
+#, php-format
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+"%s n'a pas été activée. Allez à la page des paramètres et entrez la clé de "
+"licence et le courrier électronique de licence pour l'activer % s."
+
+#: admin/modules/decom-updater/decom-updater.php:693
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Vous avez changé l'abonnement pour %s, de sorte que vous devrez entrer votre "
+"nouvelle clé API de licence dans la page des paramètres. La clé de licence "
+"aurait dû arriver dans votre boîte de courrier électronique, sinon vous "
+"pouvez l'obtenir en vous connectant à votre compte <a href=\"%s\" target="
+"\"_blank\">tableau de bord</a>."
+
+#: components/badges/component-badges.php:25
+#: components/settings/views/templates/blocks/badges-part.tpl.php:4
+#: components/settings/views/templates/settings-page.tpl.php:45
+msgid "Badges"
+msgstr "Badges"
+
+#: components/badges/component-badges.php:33
+#: components/badges/views/templates/badges-page.tpl.php:4
+msgid "Add badge"
+msgstr "Ajouter un badge"
+
+#: components/badges/component-badges.php:40
+msgid "Edit badge"
+msgstr "Modifier un badge"
+
+#: components/badges/component-badges.php:78
+#: components/badges/views/templates/badges-page.tpl.php:17
+msgid "Name of the Badge"
+msgstr "Nom du badge"
+
+#: components/badges/component-badges.php:79
+msgid "Number of likes"
+msgstr "Nombre de j'aimes"
+
+#: components/badges/component-badges.php:80
+msgid "Number of dislikes"
+msgstr "Nombre de je n'aime plus"
+
+#: components/badges/component-badges.php:81
+msgid "Number of comments"
+msgstr "Nombre de commentaires"
+
+#: components/badges/component-badges.php:82
+msgid "Activity"
+msgstr "Activité"
+
+#: components/badges/controllers/controller-badges.php:142
+msgid "Badge was successfully removed"
+msgstr "Le badge a été supprimé avec succès"
+
+#: components/badges/views/templates/badges-page.tpl.php:9
+msgid "Image"
+msgstr "Image"
+
+#: components/badges/views/templates/badges-page.tpl.php:13
+msgid "Upload image"
+msgstr "Télécharger l'image"
+
+#: components/badges/views/templates/badges-page.tpl.php:25
+msgid "Assign a badge to achieve"
+msgstr "Attribuer un badge pour atteindre"
+
+#: components/badges/views/templates/badges-page.tpl.php:27
+#: components/badges/views/templates/badges-page.tpl.php:34
+msgid "total x likes all user comments"
+msgstr "total x de j'aimes de tous les commentaires des utilisateurs"
+
+#: components/badges/views/templates/badges-page.tpl.php:28
+#: components/badges/views/templates/badges-page.tpl.php:35
+msgid "total x dislikes all user comments"
+msgstr "total x de je n'aimes pas de tous les commentaires des utilisateurs"
+
+#: components/badges/views/templates/badges-page.tpl.php:29
+#: components/badges/views/templates/badges-page.tpl.php:36
+msgid "number of comments"
+msgstr "Nombre de commentaires"
+
+#: components/badges/views/templates/badges-page.tpl.php:41
+msgid "Number"
+msgstr "Nombre"
+
+#: components/badges/views/templates/badges-page.tpl.php:50
+#: components/comments/controllers/controller-comments.php:321
+#: templates/decomments/parts/comment-begin.php:101
+#: templates/decomments/parts/comment-begin.php:163
+msgid "Edit"
+msgstr "Modifier"
+
+#: components/badges/views/templates/badges-page.tpl.php:51
+#: components/settings/views/templates/settings-page.tpl.php:21
+#: libraries/ajax/class-decom-ajax.php:45
+msgid "Save"
+msgstr "Enregistrer"
+
+#: components/badges/views/templates/badges-page.tpl.php:52
+#: components/comments/component-comments.php:222
+#: components/comments/controllers/controller-comments.php:319
+msgid "Delete"
+msgstr "Supprimer"
+
+#: components/comments/classes/comments-walker.php:142
+msgid "says"
+msgstr "dit"
+
+#: components/comments/classes/comments-walker.php:145
+#: components/comments/component-comments.php:207
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: components/comments/classes/comments-walker.php:153
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: components/comments/classes/comments-walker.php:153
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: components/comments/classes/files-upload.php:282
+#: components/comments/classes/files-upload.php:294
+#: components/comments/classes/files-upload.php:307
+msgid "Unknown upload error."
+msgstr "Erreur inconnue de téléchargement."
+
+#: components/comments/classes/files-upload.php:286
+msgid "Upload directory is invalid. Please check."
+msgstr ""
+"La répertoire de téléchargement est invalide. S'il vous plaît vérifiez."
+
+#: components/comments/classes/files-upload.php:287
+msgid "Uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+"Le fichier téléchargé excède la taille de la directive upload_max_filesize "
+"dans php.ini."
+
+#: components/comments/classes/files-upload.php:288
+msgid ""
+"Uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the "
+"HTML form."
+msgstr ""
+"Le fichier téléchargé excède la taille de la directive MAX_FILE_SIZE qui a "
+"été spécifié dans le formulaire HTML."
+
+#: components/comments/classes/files-upload.php:289
+msgid "Uploaded file was only partially uploaded."
+msgstr "Le fichier n'a été que partiellement téléchargé."
+
+#: components/comments/classes/files-upload.php:290
+msgid "File was not uploaded."
+msgstr "Le fichier n'a pas été téléchargé."
+
+#: components/comments/classes/files-upload.php:291
+msgid "Missing a temporary folder."
+msgstr "Un dossier temporaire est absent."
+
+#: components/comments/classes/files-upload.php:292
+msgid "Failed to write file to disk."
+msgstr "Impossible d'écrire le fichier sur le disque."
+
+#: components/comments/classes/files-upload.php:293
+msgid "File upload stopped by extension."
+msgstr "Le téléchargement du fichier a été arrêté par l'extension."
+
+#: components/comments/classes/files-upload.php:295
+msgid "Extension of uploaded file is invalid. Please upload an image."
+msgstr ""
+"L'extension du fichier téléchargé n'est pas valide. Veuillez télécharger une "
+"image s'il vous plaît."
+
+#: components/comments/classes/files-upload.php:297
+msgid "MIME type of uploaded file invalid. Upload an image, please."
+msgstr ""
+"Type de fichier téléchargé MIME est invalide. Veuillez télécharger une "
+"image, s'il vous plaît."
+
+#: components/comments/classes/files-upload.php:298
+msgid "File size invalid. Maximum file size %g MB."
+msgstr ""
+"Taille du fichier est invalide. La taille maximale d'un fichier est %g MB."
+
+#: components/comments/classes/files-upload.php:299
+msgid "File already exist. Try again, please."
+msgstr "Le fichier existe déjà. Essayez à nouveau, s'il vous plaît."
+
+#: components/comments/classes/files-upload.php:300
+msgid "Image width is invalid. Maximum image width is %g px."
+msgstr ""
+"Largeur de l'image n'est pas valide. La largeur maximale d'une image est %g "
+"px."
+
+#: components/comments/classes/files-upload.php:301
+msgid "Invalid image height. Maximum image height %g px."
+msgstr ""
+"Hauteur de l'image est invalide. La hauteur maximale d'une image est %g px."
+
+#: components/comments/classes/files-upload.php:302
+#, php-format
+msgid "Uploaded file could not be moved to %s."
+msgstr "Le fichier chargé ne pouvait pas être déplacé vers %s."
+
+#: components/comments/classes/files-upload.php:303
+#, php-format
+msgid "Uploaded file %s cannot be updated"
+msgstr "le fichier chargé %s ne peut pas être mis à jour"
+
+#: components/comments/component-comments.php:51
+msgid "Verifying data..."
+msgstr "Vérification des données..."
+
+#: components/comments/component-comments.php:220
+#: templates/decomments/parts/comment-begin.php:118
+msgid "Comment deleted"
+msgstr "Commentaire supprimé"
+
+#: components/comments/component-comments.php:221
+msgid "Edited at"
+msgstr "Modifié à"
+
+#: components/comments/component-comments.php:223
+msgid "Field is not null"
+msgstr "Le champ n'est pas NULL"
+
+#: components/comments/component-comments.php:224
+msgid "This field is required."
+msgstr "Ce champ est obligatoire."
+
+#: components/comments/component-comments.php:225
+msgid "Mark one of the points"
+msgstr "Veuillez sélectionner l'un des points"
+
+#: components/comments/component-comments.php:226
+msgid "Operation completed"
+msgstr "Opération terminée"
+
+#: components/comments/component-comments.php:227
+msgid "The items have been deleted"
+msgstr "Les éléments ont été supprimés"
+
+#: components/comments/component-comments.php:228
+msgid "Close"
+msgstr "Fermer"
+
+#: components/comments/component-comments.php:229
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: components/comments/component-comments.php:334
+msgid "Wrong login or password!"
+msgstr "Login ou mot de passe incorrects!"
+
+#: components/comments/component-comments.php:336
+msgid "Redirection..."
+msgstr "Redirection..."
+
+#: components/comments/controllers/controller-comments-votes.php:35
+msgid "Vote error"
+msgstr "Erreur de vote"
+
+#: components/comments/controllers/controller-comments.php:102
+msgid "ERROR"
+msgstr "ERREUR"
+
+#: components/comments/controllers/controller-comments.php:163
+msgid "This user is already exists"
+msgstr "Cet utilisateur existe déjà"
+
+#: components/comments/controllers/controller-comments.php:171
+msgid "Email is incorrect"
+msgstr "L'addresse électronique est incorrecte"
+
+#: components/comments/controllers/controller-comments.php:194
+msgid "Comment can not be edited."
+msgstr "Le commentaire ne peut pas être modifié."
+
+#: components/comments/controllers/controller-comments.php:197
+msgid "User not found."
+msgstr "Utilisateur introuvable."
+
+#: components/comments/controllers/controller-comments.php:200
+msgid "Post status not public and not private."
+msgstr "L'état de publication pas publique et pas privé."
+
+#: components/comments/controllers/controller-comments.php:203
+msgid "Draft comment"
+msgstr "Brouillon de commentaire"
+
+#: components/comments/controllers/controller-comments.php:206
+msgid "Password protected comment"
+msgstr "Commentaire protégé par mot de passe"
+
+#: components/comments/controllers/controller-comments.php:209
+msgid "Sorry, you must be logged in to post a comment."
+msgstr ""
+"Nous sommes désolés, vous devez être connecté pour faire un commentaire."
+
+#: components/comments/controllers/controller-comments.php:212
+msgid "please type a comment."
+msgstr "Veuilliez saisir un commentaire, s'il vous plaît"
+
+#: components/comments/controllers/controller-comments.php:215
+msgid "Enter a valid name or email address, please."
+msgstr ""
+"Veuillez saisir un nom valide ou adresse électronique, s'il vous plaît."
+
+#: components/comments/controllers/controller-comments.php:218
+msgid "Comment dublicate!"
+msgstr "Commentaire doublon!"
+
+#: components/comments/controllers/controller-comments.php:313
+#: templates/decomments/parts/comment-begin.php:164
+msgid "Unapprove"
+msgstr "Désapprouver"
+
+#: components/comments/controllers/controller-comments.php:315
+msgid "Approve"
+msgstr "Approver"
+
+#: components/comments/controllers/controller-comments.php:320
+#: templates/decomments/parts/comment-begin.php:165
+msgid "Spam"
+msgstr "Spam"
+
+#: components/comments/models/model-comments-votes.php:37
+msgid "Unauthorized users can’t dislike the comment. Please enter the site"
+msgstr ""
+"Les utilisateurs non autorisés ne peuvent pas marquer le commentaire \"je "
+"n'aime plus\". Veuillez entrer sur le site, s'il vous plaît"
+
+#: components/comments/models/model-comments-votes.php:43
+msgid "You can’t vote for your own comment"
+msgstr "Vous ne pouvez pas voter pour vos propres commentaires"
+
+#: components/comments/models/model-comments-votes.php:55
+msgid "Your vote has been already adopted"
+msgstr "Votre vote a été déjà adopté"
+
+#: components/notification-messages/component-notification-messages.php:6
+#: components/notification-messages/component-notification-messages.php:49
+#: components/settings/views/templates/blocks/notification-part.tpl.php:4
+#: components/settings/views/templates/settings-page.tpl.php:52
+msgid "Notifications"
+msgstr "Notifications"
+
+#: components/notification-messages/component-notification-messages.php:7
+msgid "E-mail notification text"
+msgstr "Le texte de la notification électrinique"
+
+#: components/notification-messages/views/templates/page-notification-messages.tpl.php:10
+msgid "Supported shortcodes"
+msgstr "Des shortcodes supportés"
+
+#: components/notification-messages/views/templates/page-notification-messages.tpl.php:14
+msgid "Comment's author"
+msgstr "L'auteur du commentaire"
+
+#: components/notification-messages/views/templates/page-notification-messages.tpl.php:18
+msgid "Comment creation date"
+msgstr "La date de publication du commentaire"
+
+#: components/notification-messages/views/templates/page-notification-messages.tpl.php:22
+msgid "Comment text"
+msgstr "Le texte du commentaire"
+
+#: components/notification-messages/views/templates/page-notification-messages.tpl.php:26
+msgid "Comment link"
+msgstr "Lien de commentaire"
+
+#: components/notification-messages/views/templates/page-notification-messages.tpl.php:30
+msgid "Post title to which was added a comment"
+msgstr "Titre d'une publication auquel un commentaire a été ajouté"
+
+#: components/notification-messages/views/templates/page-notification-messages.tpl.php:34
+msgid "Post link"
+msgstr "Lien d'une publication"
+
+#: components/settings/controllers/controller-settings.php:84
+msgid "At least one social network should be selected"
+msgstr "Au moins un réseau social doit être sélectionné"
+
+#: components/settings/controllers/controller-settings.php:170
+msgid "The changes are not saved! Some fields are not completed."
+msgstr ""
+"Les changements ne sont pas enregistrés! Certains champs ne sont pas remplis."
+
+#: components/settings/controllers/controller-settings.php:182
+msgid "Changes saved successfully."
+msgstr "Modifications enregistrées avec succès."
+
+#: components/settings/views/templates/blocks/avatar-part.tpl.php:4
+#: components/settings/views/templates/settings-page.tpl.php:39
+msgid "Avatar"
+msgstr "Avatar"
+
+#: components/settings/views/templates/blocks/avatar-part.tpl.php:8
+msgid "Default avatar"
+msgstr "Avatar par défaut"
+
+#: components/settings/views/templates/blocks/avatar-part.tpl.php:20
+msgid "Upload"
+msgstr "Télécharger"
+
+#: components/settings/views/templates/blocks/avatar-part.tpl.php:23
+#: templates/decomments/parts/comment-begin.php:102
+msgid "Remove"
+msgstr "Supprimer"
+
+#: components/settings/views/templates/blocks/bonus-part.tpl.php:4
+msgid "Bonus"
+msgstr "Bonus"
+
+#: components/settings/views/templates/blocks/comments-part.tpl.php:4
+#: components/settings/views/templates/settings-page.tpl.php:30
+msgid "Comments"
+msgstr "Commentaires"
+
+#: components/settings/views/templates/blocks/comments-part.tpl.php:37
+msgid "dofollow"
+msgstr "dofollow"
+
+#: components/settings/views/templates/blocks/comments-part.tpl.php:40
+msgid "nofollow"
+msgstr "nofollow"
+
+#: components/settings/views/templates/blocks/comments-part.tpl.php:92
+msgid "\"Show more\" button"
+msgstr "\"Afficher plus \" bouton"
+
+#: components/settings/views/templates/blocks/comments-part.tpl.php:95
+msgid "Previous/next pages"
+msgstr "Pages précédentes / suivantes"
+
+#: components/settings/views/templates/blocks/comments-part.tpl.php:98
+msgid "Infinite scroll (lazy load)"
+msgstr "Défilement infini (lazy load)"
+
+#: components/settings/views/templates/blocks/other-part.tpl.php:4
+msgid "Other"
+msgstr "Autre"
+
+#: components/settings/views/templates/blocks/other-part.tpl.php:8
+msgid "File Upload"
+msgstr "Téléchargement de fichiers"
+
+#: components/settings/views/templates/blocks/other-part.tpl.php:15
+msgid "Templates"
+msgstr "Modèles"
+
+#: components/settings/views/templates/blocks/social-share-part.tpl.php:4
+#: components/settings/views/templates/settings-page.tpl.php:33
+msgid "Social"
+msgstr "Sociaux"
+
+#: components/settings/views/templates/blocks/social-share-part.tpl.php:6
+msgid "To allow social login buttons we recommend you to install"
+msgstr ""
+"Pour autoriser les boutons de connexion sociaux nous vous recommandons "
+"d'installer"
+
+#: components/settings/views/templates/blocks/social-share-part.tpl.php:7
+msgid "WP social login (WSL)"
+msgstr "Connexion sociale WP (WSL)"
+
+#: components/settings/views/templates/blocks/social-share-part.tpl.php:9
+msgid "Sharing icons"
+msgstr "Icônes pour partager"
+
+#: components/settings/views/templates/blocks/subscription-part.tpl.php:4
+#: components/settings/views/templates/settings-page.tpl.php:42
+msgid "Subscription"
+msgstr "L'abonnement"
+
+#: components/settings/views/templates/blocks/vote-part.tpl.php:4
+#: components/settings/views/templates/settings-page.tpl.php:36
+msgid "Voting"
+msgstr "Le vote"
+
+#: components/settings/views/templates/settings-page.tpl.php:10
+msgid "de:comments settings"
+msgstr "Paramètres de:comments"
+
+#: components/settings/views/view-settings-page.php:11
+msgid "Settings were saved successfully"
+msgstr "Paramètres ont été correctement sauvegardées"
+
+#: components/settings/views/view-settings-page.php:39
+msgid "Standart avatar size"
+msgstr "Avatar d'une taille standard"
+
+#: components/settings/views/view-settings-page.php:40
+msgid "Time to edit / delete comments (minutes)"
+msgstr "Temps de modifier / supprimer les commentaires (minutes)"
+
+#: components/settings/views/view-settings-page.php:41
+msgid "Number of comments per page"
+msgstr "Nombre de commentaires par une page"
+
+#: components/settings/views/view-settings-page.php:42
+msgid "Add dofollow or nofollow to commentators links?"
+msgstr "Ajouter dofollow ou nofollow aux liens des commentateurs?"
+
+#: components/settings/views/view-settings-page.php:43
+msgid "Display \"subscribe to new comments\" for post "
+msgstr "Afficher \"recevoir des nouveaux commentaires\" pour la publication "
+
+#: components/settings/views/view-settings-page.php:44
+msgid "Allow \"subscribe to new comments\" for post by default"
+msgstr ""
+"Autoriser \"recevoir les nouveaux commentaires\" pour la publication par "
+"défaut"
+
+#: components/settings/views/view-settings-page.php:45
+msgid "Display \"subscribe to new comments to this comment\""
+msgstr "Afficher \"s'abonner aux nouveaux commentaires à ce commentaire\""
+
+#: components/settings/views/view-settings-page.php:46
+msgid "Allow \"subscribe to new replies to this comment\" by default"
+msgstr ""
+"Autoriser \"srecevoir les nouvelles réponses à ce commentaire \" par défaut"
+
+#: components/settings/views/view-settings-page.php:47
+msgid "Allocate comments of post author"
+msgstr "Allouer des commentaires d'auteur d'une publication"
+
+#: components/settings/views/view-settings-page.php:48
+msgid "Reset Color"
+msgstr "Réinitialiser la couleur"
+
+#: components/settings/views/view-settings-page.php:49
+msgid "Set Color"
+msgstr "Définir la couleur"
+
+#: components/settings/views/view-settings-page.php:50
+msgid "Main color"
+msgstr "Couleur de base"
+
+#: components/settings/views/view-settings-page.php:51
+msgid "Display numbers of comments"
+msgstr "Afficher le nombre de commentaires"
+
+#: components/settings/views/view-settings-page.php:52
+msgid "Allow to quote comments"
+msgstr "Autoriser de citer des commentaires"
+
+#: components/settings/views/view-settings-page.php:54
+msgid "Display the total number of comments at the top"
+msgstr "Afficher le nombre total de commentaires en haut"
+
+#: components/settings/views/view-settings-page.php:55
+msgid "Enable client validation fields"
+msgstr "Activer les champs de validation du client"
+
+#: components/settings/views/view-settings-page.php:56
+msgid "Sort comments"
+msgstr "Trier les commentaires"
+
+#: components/settings/views/view-settings-page.php:58
+msgid "Show low opacity comments with negative ratings"
+msgstr "Afficher des commentaires d'opacité faible avec évaluations négatives"
+
+#: components/settings/views/view-settings-page.php:59
+#: components/settings/views/view-settings-page.php:60
+msgid "Show two the highest ranking comments at the top of the list"
+msgstr ""
+"Afficher les deux commentaires les plus élevés classement en haut de la liste"
+
+#: components/settings/views/view-settings-page.php:61
+msgid "Minimum number of likes to display a comment at the top of the list"
+msgstr ""
+"Nombre minimum de \"j'aimes\" pour afficher un commentaire en haut de la "
+"liste"
+
+#: components/settings/views/view-settings-page.php:62
+msgid "Maximum size of uploaded images"
+msgstr "La taille maximale des images téléchargées"
+
+#: components/settings/views/view-settings-page.php:64
+msgid "Display author's avatar from the right side"
+msgstr "Afficher l'avatar d'auteur depuis le côté droit"
+
+#: components/settings/views/view-settings-page.php:65
+msgid "Display round avatars"
+msgstr "Afficher avatars ronds"
+
+#: components/settings/views/view-settings-page.php:66
+msgid "Display comment box on top of list"
+msgstr "Afficher boîte de commentaire sur le dessus de la liste"
+
+#: components/settings/views/view-settings-page.php:68
+msgid "Allow endless feed"
+msgstr "Autoriser le flux infini"
+
+#: components/settings/views/view-settings-page.php:69
+msgid "Allow lazy load"
+msgstr "Autoriser charge paresseux"
+
+#: components/settings/views/view-settings-page.php:70
+msgid "Allow dislikes"
+msgstr "Autoriser \"je n'aime pas\""
+
+#: components/settings/views/view-settings-page.php:71
+msgid "Enable embeding external media URLs"
+msgstr ""
+"Activer l'intégration des URL des médias externes (YouTube, Twitter, "
+"Instagram...)"
+
+#: components/settings/views/view-settings-page.php:72
+msgid "Maximum external media URLs"
+msgstr "Maximum des URLs des médias externes"
+
+#: components/settings/views/view-settings-page.php:74
+msgid "Don't display de:comments logo"
+msgstr "Ne pas afficher le logo de:commentaires"
+
+#: components/settings/views/view-settings-page.php:76
+msgid "Disable CSS plugin"
+msgstr "Désactiver plugin CSS"
+
+#: components/settings/views/view-settings-page.php:78
+msgid "Facebook"
+msgstr "Facebook"
+
+#: components/settings/views/view-settings-page.php:79
+msgid "Twitter"
+msgstr "Twitter"
+
+#: components/settings/views/view-settings-page.php:80
+msgid "Google+"
+msgstr "Google+"
+
+#: components/settings/views/view-settings-page.php:81
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: components/settings/views/view-settings-page.php:82
+msgid "Vkontakte"
+msgstr "Vkontakte"
+
+#: components/settings/views/view-settings-page.php:83
+msgid "Odnoklassniki"
+msgstr "Odnoklassniki"
+
+#: components/settings/views/view-settings-page.php:86
+msgid "Enable field  \"Website\" in the form of comments?"
+msgstr "Activer le champ \"Site Web \" dans la forme de commentaires?"
+
+#: components/settings/views/view-settings-page.php:88
+msgid "Enable comments pagination, set var:"
+msgstr "Activer pagination des commentaires:"
+
+#: components/woo-activation/views/templates/woo-activation-notification.tpl.php:1
+#: components/woo-activation/views/templates/woo-activation.tpl.php:6
+msgid "Activate plugin"
+msgstr "Activez le plugin"
+
+#: components/woo-activation/views/templates/woo-activation-notification.tpl.php:2
+msgid "Component will be activated by administrator soon."
+msgstr "Des composants seront activés par l'administrateur bientôt."
+
+#: components/woo-activation/views/templates/woo-activation.tpl.php:11
+msgid "Email"
+msgstr "E-mail"
+
+#: components/woo-activation/views/templates/woo-activation.tpl.php:16
+msgid "Please enter Email"
+msgstr "Veuillez saisir votre adresse électronique."
+
+#: components/woo-activation/views/templates/woo-activation.tpl.php:19
+msgid "Please enter valid Email"
+msgstr "Veuillez entrer une addresse électronique valable s'il vous plaît."
+
+#: components/woo-activation/views/templates/woo-activation.tpl.php:25
+msgid "Activation key"
+msgstr "Clé d'activation"
+
+#: components/woo-activation/views/templates/woo-activation.tpl.php:31
+msgid "Please enter Activation key"
+msgstr "Saisissez la clé d'activation"
+
+#: components/woo-activation/views/templates/woo-activation.tpl.php:37
+msgid "Activate"
+msgstr "Activer"
+
+#: core/hooks-handler.php:97 core/hooks-handler.php:98
+#: core/hooks-handler.php:104
+msgid "de:comments"
+msgstr "de:comments"
+
+#: core/hooks-handler.php:122
+msgid "Default discussion settings"
+msgstr "Paramètres de discussion par défaut"
+
+#: core/hooks-handler.php:122
+msgid "Discussion settings"
+msgstr "Paramètres de discussion"
+
+#: core/loader.php:20
+#, php-format
+msgid "File \"%s\" doesn't exist!"
+msgstr "Fichier \"%s \" ne existe pas!"
+
+#: templates/decomments/comment-form.php:18
+msgid "Add comment"
+msgstr "Ajouter un commentaire"
+
+#: templates/decomments/comment-form.php:41
+msgid "Log out"
+msgstr "Déconnecter"
+
+#: templates/decomments/comment-form.php:45
+msgid "Subscribe"
+msgstr "S'abonner"
+
+#: templates/decomments/comment-form.php:52
+msgid "Replies to my comments"
+msgstr "Réponses à mes commentaires"
+
+#: templates/decomments/comment-form.php:56
+msgid "All comments"
+msgstr "Tous les commentaires"
+
+#: templates/decomments/comment-form.php:66
+#: templates/decomments/parts/modal_quote.php:4
+msgid "Add a quote"
+msgstr "Ajouter une citation"
+
+#: templates/decomments/comment-form.php:67
+#: templates/decomments/parts/modal_addimage.php:4
+msgid "Add a picture"
+msgstr "Ajouter une photo"
+
+#: templates/decomments/comment-form.php:82
+msgid "Error"
+msgstr "Erreur"
+
+#: templates/decomments/comment-form.php:87
+#: templates/decomments/parts/modal_addimage.php:23
+#: templates/decomments/parts/modal_quote.php:18
+msgid "Submit"
+msgstr "Soumettre"
+
+#: templates/decomments/comment-form.php:88
+#: templates/decomments/parts/modal_addimage.php:24
+#: templates/decomments/parts/modal_quote.php:19
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/decomments/comments.php:165 templates/decomments/comments.php:166
+#: templates/decomments/comments.php:167 templates/decomments/comments.php:292
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "commentaire(s)"
+msgstr[1] "commentaire(s)"
+msgstr[2] "commentaire(s)"
+
+#: templates/decomments/comments.php:201 templates/decomments/comments.php:241
+msgid "Name"
+msgstr "Nom"
+
+#: templates/decomments/comments.php:206
+msgid "E-mail"
+msgstr "E-mail"
+
+#: templates/decomments/comments.php:213
+msgid "Website"
+msgstr "Site web"
+
+#: templates/decomments/comments.php:223
+msgid "E-mail is already registered on the site. Please use the "
+msgstr ""
+"L'addresse électronque est déjà enregistrée sur le site. S'il vous plaît, "
+"veuillez utiliser "
+
+#: templates/decomments/comments.php:224
+msgid "login form"
+msgstr "le formulaire de connexion"
+
+#: templates/decomments/comments.php:225
+msgid " or "
+msgstr " ou "
+
+#: templates/decomments/comments.php:226
+msgid "enter another"
+msgstr "veuillez saisir un autre"
+
+#: templates/decomments/comments.php:234
+msgid "You entered an incorrect username or password"
+msgstr "Vous avez saisi un nom d'utilisateur ou mot de passe incorrects"
+
+#: templates/decomments/comments.php:246
+msgid "Password"
+msgstr "Mot de passe"
+
+#: templates/decomments/comments.php:251
+msgid "Log in"
+msgstr "Se connecter"
+
+#: templates/decomments/comments.php:272 templates/decomments/comments.php:405
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: templates/decomments/comments.php:299
+msgid "Sort"
+msgstr "Trier par"
+
+#: templates/decomments/comments.php:302
+msgid "by Best"
+msgstr "Meilleur"
+
+#: templates/decomments/comments.php:305
+msgid "by Newest"
+msgstr "des plus récents"
+
+#: templates/decomments/comments.php:308
+msgid "by Oldest"
+msgstr "des plus anciens"
+
+#: templates/decomments/comments.php:376 templates/decomments/comments.php:387
+msgid "Load more"
+msgstr "Charger plus"
+
+#: templates/decomments/comments.php:385
+msgid "Loading comments.."
+msgstr "Chargement des commentaires.."
+
+#: templates/decomments/comments.php:425
+msgid "Previous comments"
+msgstr "Commentaires précédents"
+
+#: templates/decomments/comments.php:426
+msgid "Next comments"
+msgstr "Commentaires suivants"
+
+#: templates/decomments/parts/comment-begin.php:43
+msgid "Guest"
+msgstr "Visiteur"
+
+#: templates/decomments/parts/comment-begin.php:89
+msgid "Author"
+msgstr "Auteur"
+
+#: templates/decomments/parts/comment-begin.php:98
+msgid "Time remaining "
+msgstr "Temps restant"
+
+#: templates/decomments/parts/comment-begin.php:98
+msgid "min."
+msgstr "min."
+
+#: templates/decomments/parts/comment-begin.php:152
+msgid "Reply"
+msgstr "Répondre"
+
+#: templates/decomments/parts/comment-begin.php:166
+msgid "Trash"
+msgstr "Corbeille"
+
+#: templates/decomments/parts/comment-begin.php:197
+#: templates/decomments/parts/modal_preview.php:4
+msgid "Preview image"
+msgstr "Aperçu de l'image"
+
+#: templates/decomments/parts/modal_addimage.php:21
+msgid "Choose file"
+msgstr "Sélectionnez un fichier"
+
+#: templates/decomments/parts/modal_alerts.php:4
+msgid "Attention"
+msgstr "Attention"
+
+#: templates/decomments/parts/social-share-block.php:15
+msgid "Share"
+msgstr "Partager"
+
+#~ msgid "Add comment, please."
+#~ msgstr "Добавьте комментарий, пожалуйста."
+
+#~ msgid "Social sharing button"
+#~ msgstr "Кнопки социального шейринга"

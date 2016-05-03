@@ -1,0 +1,64 @@
+.decom-notifikation {
+	padding:       15px 2px 3px;
+
+	border-bottom: 1px solid #ccc
+}
+
+.decom-language {
+	padding: 0 5px 0;
+	float:   left;
+}
+
+.decom-input-lang {
+	/*width: 300px;*/
+	/*display:inline;*/
+}
+
+.decom-block-lang {
+	padding: 10px 10px 0px 25%;
+}
+
+.decom-block-lang tr {
+	padding-bottom: 10px;
+}
+
+#decom-supported-shortcodes {
+	padding-bottom: 10px;
+}
+
+.decom-description td {
+	font-size:     12px;
+	font-style:    italic;
+	font-family:   sans-serif;
+	color:         #666;
+	margin:        2px 0px 5px;
+	padding:       3px 5px;
+	background:    #fafafa;
+	border-bottom: 1px solid #d3d3d3
+}
+
+.decom-description {
+	border-radius: 3px;
+	overflow:      hidden;
+}
+
+.decom-description table {
+	border-collapse: collapse;
+	border:          1px solid #d3d3d3;
+	width:           100%;
+	margin:          0;
+	padding:         0;
+}
+
+.decom-description .odd td {
+	background: #f3f3f3;
+}
+
+.decom-description th {
+	/*color: #575765;*/
+	font-size:     12px;
+	font-weight:   normal;
+	text-align:    center;
+	border-bottom: 1px solid #d3d3d3;
+	padding:       3px 5px;
+}

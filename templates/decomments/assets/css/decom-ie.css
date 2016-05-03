@@ -1,0 +1,7 @@
+.decom-picture {
+	cursor: url(wp-content/plugins/decomments/components/comments/assets/images/zoom-in.cur), pointer;
+}
+
+.decom-gif {
+	cursor: url(wp-content/plugins/decomments/components/comments/assets/images/zoom-out.cur), pointer;
+}
