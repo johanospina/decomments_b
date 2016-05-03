@@ -1,6 +1,6 @@
 {
     "name": "johanospina/decomments",
     "type": "wordpress-plugin",
-	"require": {"composer/installers":"v1.0.25"}
+    "require": {"composer/installers":"v1.0.25"}
   
 }
